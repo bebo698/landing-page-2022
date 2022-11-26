@@ -57,6 +57,8 @@ function BuildNavBar() {
             // Scroll to anchor ID using scrollTO event
             section.scrollIntoView({
                 behavior: 'smooth',
+                block: 'center'
+
 
             });
         });
